@@ -734,10 +734,10 @@
 			case 0x1B:
 				[self hideApp];
 				break;
-            case 0xD: // Enter or Return
+         case 0xD: // Enter
 				[self pasteFromStack];
 				break;
-			case 0x3:
+			case 0x3: // Return
                 [self changeStack];
                 break;
             case 0x2C: // Comma
